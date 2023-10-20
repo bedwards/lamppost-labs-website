@@ -1,0 +1,41 @@
+body {
+    font-family: "Ogonek Heavy", sans-serif;
+    background-color: #F0EFF1; /* Athens Gray */
+    color: #4C5473; /* Fiord */
+}
+
+header {
+    background-color: #F5B534; /* Saffron */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Celias Bold", sans-serif;
+    font-size: 2.5em;
+}
+
+.products {
+    margin: 40px;
+    background-color: #A4ACB4; /* Gray Chateau */
+    padding: 20px;
+}
+
+.products ul {
+    list-style-type: none;
+}
+
+.products li {
+    font-family: "Wes FY Bold", sans-serif;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #A5A1B4; /* Santas Gray */
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: #096163; /* Deep Sea Green */
+}
