@@ -86,3 +86,9 @@ a {
     max-width: 48px;
     margin-right: 15px;
 }
+
+@media only screen and (max-width: 767px) {
+    .my-class {
+       font-size: 2em;
+    }
+}
