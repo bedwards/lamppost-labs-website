@@ -1,5 +1,5 @@
 body {
-    font-family: "Ogonek Heavy", sans-serif;
+    font-family: "Wes FY Bold", sans-serif;
     background-color: #A5A1B4; /* Santas Gray */
     color: #096163; /* Deep Sea Green */
     margin: 0;
@@ -22,12 +22,37 @@ header {
 
 h1 {
     font-family: "Celias Bold", sans-serif;
-    font-size: 1.77em;
+    font-size: 1.69em;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 h2 {
     font-family: "Celias Bold", sans-serif;
-    font-size: 1.07em;
+    font-size: 1.10em;
+    margin: 0 0 0 0;
+    padding: 4px 0 0 0;
+}
+
+h3 {
+    font-family: "Celias Bold", sans-serif;
+    font-size: 1.42em;
+    margin: 0 0 0 0;
+    padding: 0 0 16px 0;
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+       font-size: 1.38em;
+    }
+
+    h2 {
+       font-size: 0.79em;
+    }
+
+    h3 {
+       font-size: 1.22em;
+    }
 }
 
 main {
@@ -42,7 +67,6 @@ main {
 }
 
 .products div {
-    font-family: "Wes FY Bold", sans-serif;
     margin-bottom: 10px;
     padding: 10px;
     display: flex;
