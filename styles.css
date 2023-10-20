@@ -41,9 +41,9 @@ a {
 }
 
 .logo-large {
-    max-width: 400px;
+    max-width: 128px;
 }
 
 .logo-small {
-    max-width: 200px;
+    max-width: 48px;
 }
