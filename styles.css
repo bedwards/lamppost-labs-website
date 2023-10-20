@@ -60,6 +60,10 @@ main {
     align-items: center;
 }
 
+.product-name {
+    font-weight: bold;
+}
+
 .footer-wrapper {
     background-color: #A5A1B4; /* Santas Gray */
     min-height: 100vh;
