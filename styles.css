@@ -1,6 +1,6 @@
 body {
     font-family: "Ogonek Heavy", sans-serif;
-    background-color: #FFFFFF; /* White */
+    background-color: #F0EFF1; /* Athens Gray */
     color: #4C5473; /* Fiord */
     margin: 0;
 }
@@ -9,8 +9,15 @@ header {
     background-color: #F5B534; /* Saffron */
     text-align: center;
     padding: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-inline {
+    display: inline-block;
+    margin: 0 10px;
 }
 
 h1 {
@@ -18,13 +25,31 @@ h1 {
     font-size: 2.5em;
 }
 
+h1 {
+    font-family: "Celias Bold", sans-serif;
+    font-size: 2.5em;
+}
+
+.content-wrapper {
+    background-color: #A5A1B4; /* Santas Gray */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 main {
-    background-color: #FFFFFF; /* White */
+    flex: 1;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 48px;
 }
 
 .products {
     margin: 0;
-    background-color: #FFFFFF; /* White */
+    background-color: #A4ACB4; /* Gray Chateau */
     padding: 0;
 }
 
@@ -43,8 +68,6 @@ footer {
     background-color: #A5A1B4; /* Santas Gray */
     text-align: center;
     padding: 10px;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
