@@ -22,12 +22,12 @@ header {
 
 h1 {
     font-family: "Celias Bold", sans-serif;
-    font-size: 2.22em;
+    font-size: 1.77em;
 }
 
 h2 {
     font-family: "Celias Bold", sans-serif;
-    font-size: 1.22em;
+    font-size: 1.07em;
 }
 
 main {
@@ -80,8 +80,3 @@ a {
     margin-right: 15px;
 }
 
-@media only screen and (max-width: 767px) {
-    .my-class {
-       font-size: 2em;
-    }
-}
