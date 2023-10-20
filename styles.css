@@ -66,6 +66,10 @@ footer {
     width: 100%;
 }
 
+a {
+    color: #096163; /* Deep Sea Green */
+}
+
 .logo-large {
     max-width: 128px;
 }
