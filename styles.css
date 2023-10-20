@@ -39,3 +39,11 @@ footer {
 a {
     color: #096163; /* Deep Sea Green */
 }
+
+.logo-large {
+    max-width: 400px;
+}
+
+.logo-small {
+    max-width: 200px;
+}
