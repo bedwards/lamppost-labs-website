@@ -1,15 +1,15 @@
 body {
     font-family: "Ogonek Heavy", sans-serif;
-    background-color: #F0EFF1; /* Athens Gray */
-    color: #4C5473; /* Fiord */
+    background-color: #A5A1B4; /* Santas Gray */
+    color: #096163; /* Deep Sea Green */
     margin: 0;
 }
 
 header {
     background-color: #F5B534; /* Saffron */
-    text-align: center;
+    text-align: left;
     padding: 20px;
-    border-bottom-right-radius: 48px;
+    border-bottom-right-radius: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,16 +41,11 @@ main {
     flex: 1;
 }
 
-footer {
-    padding: 10px;
-    text-align: center;
-    border-top-left-radius: 48px;
-}
-
 .products {
     margin: 0;
-    background-color: #A4ACB4; /* Gray Chateau */
+    background-color: #F0EFF1; /* Athens Gray */
     padding: 0;
+    border-bottom-right-radius: 32px;
 }
 
 .products ul {
@@ -69,10 +64,6 @@ footer {
     text-align: center;
     padding: 10px;
     width: 100%;
-}
-
-a {
-    color: #096163; /* Deep Sea Green */
 }
 
 .logo-large {
